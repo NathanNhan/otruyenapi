@@ -14,6 +14,7 @@ class HomePage {
 
     getResults() {
         //Xử lý đi call API
+    
         axios.get("https://otruyenapi.com/v1/api/home")
           .then((response) => {
             let results = response.data.data.items.slice(0,6);
@@ -28,7 +29,7 @@ class HomePage {
                </span>
              </a>
              <div class="event-summary__content">
-               <h5 class="event-summary__title headline headline--tiny"><a href="#">${truyen.name}</a></h5>
+               <h5 class="event-summary__title headline headline--tiny"><a href="${someUniqueName.myPermalink}?q=${truyen.slug}">${truyen.name}</a></h5>
              </div>
            </div>
                 `

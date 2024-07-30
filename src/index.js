@@ -4,7 +4,10 @@ import "../css/style.scss"
 import MobileMenu from "./modules/MobileMenu"
 import HeroSlider from "./modules/HeroSlider"
 import HomePage from "./modules/HomePage"
+import Single from "./modules/Single"
 // Instantiate a new object using our modules/classes
 const mobileMenu = new MobileMenu()
 const heroSlider = new HeroSlider()
 const homePage = new HomePage();
+
+const single = new Single();
