@@ -464,6 +464,36 @@ li {
   opacity: 0;
 }
 
+.container_chapter {
+  display: flex;
+}
+
+.title__chapter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+.title__chapter #button_chapter {
+  margin: 10px;
+  background-color: #0A2E4F;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 7px 14px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.content__chapter {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
 /* Customize Login Screen */
 body.login .button-primary {
   background-color: #F95738;

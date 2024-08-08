@@ -15,7 +15,22 @@ get_header();
 
            <div class="container container--narrow page-section" id="container__single" style="margin-top: 50px;">
 
-           </div>
+             </div>
+             
+             <div class="container container--narrow page-section" id="container__single" style="margin-top: 50px;">
+               <div class="container_chapter">
+                <div class="title__chapter">
+                 <button>Chương 1</button>
+                </div>
+    
+                <div class="content__chapter">
+                  <h3>Nội dung chương 1</h3>
+                  <h3>Chapter 2</h3>
+                  <h3>Chapter 3</h3>
+                </div>
+               </div>
+
+             </div>
 
   <?php
 
