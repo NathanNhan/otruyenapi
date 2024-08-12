@@ -24,9 +24,7 @@ get_header();
                 </div>
     
                 <div class="content__chapter">
-                  <h3>Nội dung chương 1</h3>
-                  <h3>Chapter 2</h3>
-                  <h3>Chapter 3</h3>
+                  
                 </div>
                </div>
 

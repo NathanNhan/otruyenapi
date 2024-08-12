@@ -10,4 +10,4 @@ const mobileMenu = new MobileMenu()
 const heroSlider = new HeroSlider()
 const homePage = new HomePage();
 
-const single = new Single();
+const single = Object.freeze(new Single());

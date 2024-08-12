@@ -10,7 +10,7 @@
     <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
-          <a href="#"><strong>Fictional</strong> University</a>
+          <a href="/"><strong>Comic</strong> Manga</a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>

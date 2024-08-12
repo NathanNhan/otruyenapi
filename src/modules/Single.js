@@ -1,10 +1,15 @@
 import axios from 'axios';
 import $ from 'jquery';
 
-
+let instance;
 class Single {
 
     constructor() {
+        if (instance) {
+            throw new Error("New instance cannot be created!!");
+        }
+
+        instance = this;
        
         this.resultDiv = $("#container__single");
         //Lấy phần tử chapters
